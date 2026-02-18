@@ -4,15 +4,21 @@
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "@react-native-community/blur": "^4.4.1",
+    "@shopify/react-native-skia": "^2.4.21",
+    "@viro-community/react-viro": "^2.41.1",
     "expo": "~54.0.33",
+    "expo-blur": "^15.0.8",
     "expo-file-system": "^19.0.21",
     "expo-gl": "^16.0.10",
     "expo-image-picker": "^17.0.10",
+    "expo-linear-gradient": "^15.0.8",
     "expo-status-bar": "~3.0.9",
     "expo-three": "^8.0.0",
     "react": "19.1.0",
@@ -20,11 +26,13 @@
     "react-native-executorch": "^0.7.1",
     "react-native-gesture-handler": "^2.30.0",
     "react-native-reanimated": "^4.2.1",
+    "react-native-safe-area-context": "~5.6.0",
     "react-native-view-shot": "^4.0.3",
     "three": "^0.166.1"
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
+    "@types/react-native-canvas": "^0.1.14",
     "typescript": "~5.9.2"
   },
   "private": true
